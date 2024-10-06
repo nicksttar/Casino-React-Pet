@@ -1,0 +1,10 @@
+.settings-back{
+    position: fixed;
+    top: 90px;
+}
+
+.settings-item{
+    display: block;
+    margin-bottom: 10px;
+
+}

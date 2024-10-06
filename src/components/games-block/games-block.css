@@ -1,0 +1,33 @@
+.games-block{
+    margin-bottom: 50px;
+}
+
+
+.games-block-wrapper{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.games-block-titile{
+    text-align: center;
+}
+
+.one-game-block {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для глубины */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для трансформации и тени */
+    display: flex; /* Для центрирования контента */
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    overflow: hidden; /* Скрытие переполнения, если необходимо */
+    cursor: pointer;
+}
+
+.one-game-block:hover {
+    transform: scale(1.1); /* Увеличение блока при наведении */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Увеличение тени при наведении */
+}

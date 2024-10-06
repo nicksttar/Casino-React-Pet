@@ -1,0 +1,87 @@
+.overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.795);
+    z-index: 1;
+}
+
+.deposit-window{
+    position: relative;
+    width: 500px;
+    height: 380px;
+    background-color: rgb(13, 13, 22);
+    border-radius: 10px;
+}
+
+.deposit-window-title{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.deposit-exit-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.deposit-form{
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 40px 40px 40px;
+    gap: 20px;
+}
+
+.card-input{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.card-holder{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.card-expiry-date{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.sum-input{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.security-code{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.submit-deposit{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 40px;
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.deposit-form > input{
+    padding-left: 8px;
+    color: white;
+    background-color: rgba(19, 31, 63, 0.212);
+    border: 1px solid rgba(37, 62, 109, 0.541);
+}

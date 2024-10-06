@@ -1,0 +1,37 @@
+@media screen and (max-width: 920px) {
+
+    .container-login {
+        /* height: 300px; */
+    }
+    .front-card, .back-card{
+        width: 380px;
+        height: 400px;
+    }
+
+    .input-block > input{
+        width: 200px;
+    }
+  }
+  
+@media screen and (max-width: 560px) {
+    .front-card, .back-card{
+        width: 280px;
+        height: 320px;
+    }
+
+    .back-card{
+        height: 400px;
+    }
+
+    .input-block > input{
+        width: 120px;
+    }
+
+    .login-text{
+        margin-bottom: 15px;
+    }
+
+    .login-btn{
+        margin-top: 15px;
+    }
+}

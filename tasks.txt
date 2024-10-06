@@ -1,0 +1,7 @@
+>>> conver js to jsx 
+--- optimise code 
+--- media querry 
+--- fix header 
+--- finish xplay 
+--- lazy loading 
+--- fix time 
