@@ -1,0 +1,72 @@
+@media screen and (max-width: 1060px) {
+
+    .container-login {
+        /* height: 300px; */
+    }
+    .header-left-block > .ddd{
+        margin-top: 8px;
+        font-size: 21px;
+    }
+    .centerlogo{
+        width: 185px;
+    }
+    .header-divider{
+        margin: 15px auto;
+    }
+    .header-right-block{
+        display: none;
+    }
+    .header-right-block-min{
+        display: flex;
+    }
+
+  }
+
+@media screen and (max-width: 830px) {
+    .centerlogo{
+        display: none;
+    }
+    .header-left-block > .ddd{
+        margin-top: 8px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .one-game-block{
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+
+@media screen and (max-width: 460px) {
+    .header-left-block > .ddd{
+        display: none;
+    }
+    .ddd-mini{
+        display: block;
+    }
+    .one-game-block{
+        width: 100px;
+        height: 100px;
+    }
+    .games-block > .ddd{
+        /* font-size: 1px;  ???*/
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-left-block > .ddd{
+        display: none;
+    }
+    .ddd-mini{
+        display: block;
+    }
+    .one-game-block{
+        width: 70px;
+        height: 70px;
+    }
+}

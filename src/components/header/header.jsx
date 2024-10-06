@@ -60,6 +60,7 @@ function Header() {
             <div className="header-block">
                 <div className="header-left-block">
                     <div className="ddd">Dobry Dadya Diller</div>
+                    <div className="ddd-mini">DDD</div>
                     <img src={centerlogo} alt="" className='centerlogo'/>
                 </div>
                 <div className="header-right-block">
@@ -72,6 +73,12 @@ function Header() {
                     <SettingsMenu isMenuVisible={isMenuVisible}/></div>
                     
                 </div>
+                <div className="header-right-block-min">
+                    <button type='button' className="yellow-color deposit-btn rblock" onClick={() => SetDeposit(true)}>Deposit</button>
+                    <div className="balance-btn rblock">0.00$</div>
+                    <div className="profile-btn rblock"><LucideCircleUserRound/></div>
+                    <div className={`settings`}><Settings onClick={toggleMenuAndAnimation} className={`${animation ? 'animation1': 'animation2'}`}/>
+                    <SettingsMenu isMenuVisible={isMenuVisible}/></div>                </div>
                 
             </div>
             <div className="header-divider"></div>

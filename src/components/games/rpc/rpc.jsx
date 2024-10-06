@@ -19,10 +19,10 @@ function RPGame() {
             <Header/>
             <div className="rpc-wrapper">
                 <div className="rpc-numbers">
-                    <div className="front-card type1"></div>
+                    <div className="front-card9 type1"></div>
                     <div className="back-card-play"></div>
-                    <div className="front-card type2" style={{transform: `translateX(-${card_pos * 230}px)`}}></div>
-                    <div className="front-card type3" style={{transform: `translateX(-${card_pos * 230}%)`}}></div>
+                    <div className="front-card9 type2" style={{transform: `translateX(-${card_pos * 230}px)`}}></div>
+                    <div className="front-card9 type3" style={{transform: `translateX(-${card_pos * 230}%)`}}></div>
                 </div>
                     {/* {play_flag && '123'} */}
                 <input type="text" className="bet-input" />

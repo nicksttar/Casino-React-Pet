@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import './login-form.scss';
+import './login-form.css';
 import lockIcon from '../../img/lock-icon.svg';
 import userIcon from '../../img/user.svg';
 import successIcon from '../../img/success.svg';

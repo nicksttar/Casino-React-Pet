@@ -157,3 +157,18 @@
     top: 4px;
     transform: translateX(-50%); 
 }
+
+.header-right-block-min{
+    display: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #ffffffbb;
+    gap: 30px;
+}
+
+.ddd-mini{
+    color: yellow;
+    font-size: 21px;
+    display: none;
+    margin-top: 4px;
+}

@@ -1,4 +1,5 @@
 import './xplay.css';
+import './xplay-media.css';
 import Header from '../../header/header';
 import { useState } from 'react';
 import { Undo2 } from 'lucide-react';

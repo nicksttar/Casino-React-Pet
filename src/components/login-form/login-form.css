@@ -2,51 +2,52 @@
     margin: 0 auto;
     position: relative;
     align-items: stretch;
+}
+.container-login{
     
-    .front-card{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        text-align: center;
-        width: 440px;
-        height: 400px;
-        display: block;
-        background-color: antiquewhite;
-        border-radius: 6px;
-
-
-        background-color: #2a2b38;
-        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg);
-        background-position: bottom center;
-        background-repeat: no-repeat;
-        background-size: 300%;
-        border-radius: 6px;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -o-backface-visibility: hidden;
-        backface-visibility: hidden;
-        transition: 0.4s all;
-        opacity: 1;
-        
-        .login-text {
-            margin-bottom: 15px;
-            margin-top: 20px;
-        }
-    }
 }
 
 
 
+
+
+
+.front-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 440px;
+    height: 400px;
+    display: block;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    background-color: #2a2b38;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    border-radius: 6px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 0.4s all;
+    opacity: 1;
+}
+
+.login-text {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
 .inputs {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-
 }
-
 .input-block > input {
     width: 280px;
     height: 40px;
@@ -65,24 +66,18 @@
     transition: all 200ms linear;
     box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
 }
-
 .input-block {
     position: relative;
 }
-
 .input-block > img {
     position: absolute;
     left: 12px;
     top: 16px;
     width: 30px;
     height: 30px;
-
 }
-
-
 .login-btn {
     margin-top: 15px;
-
     cursor: pointer;
     border-radius: 4px;
     height: 44px;
@@ -111,30 +106,24 @@
     color: #102770;
     box-shadow: 0 8px 24px 0 rgba(255, 235, 167, .2);
 }
-
 .login-btn > a {
     text-decoration: none;
 }
-
 /* .login-btn:hover {
     transform: rotateY(180deg);
-} */
-
+}
+*/
 .small {
     margin-top: 5px;
     font-size: 16px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-
 .login-recovery {
     display: block;
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 20px;
 }
-
-
-
-.back-card{
+.back-card {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -144,8 +133,6 @@
     display: block;
     background-color: antiquewhite;
     border-radius: 6px;
-
-
     background-color: #2a2b38;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg);
     background-position: bottom center;
@@ -158,19 +145,16 @@
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
-
     transition: 0.4s all;
     opacity: 1;
 }
-
 .front-card {
     transform: perspective(600px) rotateY(0deg);
-    transition: .4s linear;
+    transition: 0.4s linear;
     backface-visibility: hidden;
     transform-style: preserve-3d;
 }
-
-.back-card-success{
+.back-card-success {
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -180,8 +164,6 @@
     height: 400px;
     background-color: antiquewhite;
     border-radius: 6px;
-
-
     background-color: #2a2b38;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg);
     background-position: bottom center;
@@ -194,17 +176,14 @@
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
-
     transition: 0.4s all;
     opacity: 1;
 }
-
 .success-text {
     display: block;
-    font-size:large;
+    font-size: large;
     padding: 10px;
 }
-
 .back-card-success > img {
     width: 70px;
     height: 70px;
